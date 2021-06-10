@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AMST4</string>
+    <string name="hello_world_pabelco_zambrano_branch">Hello World, pabelco_zambrano Branch!</string>
+    <string name="button">Button</string>
 </resources>
