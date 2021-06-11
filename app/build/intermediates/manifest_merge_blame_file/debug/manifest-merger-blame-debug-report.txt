@@ -67,83 +67,82 @@
 45-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:23:9-54
 46        android:supportsRtl="true"
 46-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:24:9-35
-47        android:testOnly="true"
-48        android:theme="@style/Theme.AMST4" >
-48-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:25:9-43
-49        <activity android:name="com.example.amst4.VideoViewActivity" />
-49-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:27:9-55
-49-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:27:19-52
-50        <activity android:name="com.example.amst4.calendar_Lesther" >
-50-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:28:9-32:20
-50-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:28:19-51
-51            <intent-filter>
-51-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:29:13-31:29
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:17-77
-52-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:27-74
-53            </intent-filter>
-54        </activity>
-55        <!--
-56             The API key for Google Maps-based APIs is defined as a string resource.
-57             (See the file "res/values/google_maps_api.xml").
-58             Note that the API key is linked to the encryption key used to sign the APK.
-59             You need a different API key for each encryption key, including the release key that is used to
-60             sign the APK for publishing.
-61             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-62        -->
-63        <meta-data
-63-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:41:9-43:55
-64            android:name="com.google.android.geo.API_KEY"
-64-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:42:13-58
-65            android:value="@string/google_maps_key" />
-65-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:43:13-52
-66
-67        <activity
-67-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:45:9-47:59
-68            android:name="com.example.amst4.MapsActivity"
-68-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:46:13-41
-69            android:label="@string/title_activity_maps" />
-69-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:47:13-56
-70        <activity android:name="com.example.amst4.LinearGraphActivity" />
-70-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:48:9-57
-70-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:48:19-54
-71        <activity android:name="com.example.amst4.MainActivity" >
-71-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:49:9-55:20
-71-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:49:19-47
-72            <intent-filter>
-72-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:50:13-54:29
-73                <action android:name="android.intent.action.MAIN" />
-73-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:51:17-69
-73-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:51:25-66
-74
-75                <category android:name="android.intent.category.LAUNCHER" />
-75-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:17-77
-75-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:27-74
-76            </intent-filter>
-77        </activity>
-78        <!-- Needs to be explicitly declared on P+ -->
-79        <uses-library
-79-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
-80            android:name="org.apache.http.legacy"
-80-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
-81            android:required="false" />
-81-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
-82
-83        <activity
-83-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-84-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-85            android:exported="false"
-85-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-87
-88        <meta-data
-88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-89            android:name="com.google.android.gms.version"
-89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-90            android:value="@integer/google_play_services_version" />
-90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-91    </application>
-92
-93</manifest>
+47        android:theme="@style/Theme.AMST4" >
+47-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:25:9-43
+48        <activity android:name="com.example.amst4.VideoViewActivity" />
+48-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:27:9-55
+48-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:27:19-52
+49        <activity android:name="com.example.amst4.calendar_Lesther" >
+49-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:28:9-32:20
+49-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:28:19-51
+50            <intent-filter>
+50-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:29:13-31:29
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:17-77
+51-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             The API key for Google Maps-based APIs is defined as a string resource.
+56             (See the file "res/values/google_maps_api.xml").
+57             Note that the API key is linked to the encryption key used to sign the APK.
+58             You need a different API key for each encryption key, including the release key that is used to
+59             sign the APK for publishing.
+60             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+61        -->
+62        <meta-data
+62-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:41:9-43:55
+63            android:name="com.google.android.geo.API_KEY"
+63-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:42:13-58
+64            android:value="@string/google_maps_key" />
+64-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:43:13-52
+65
+66        <activity
+66-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:45:9-47:59
+67            android:name="com.example.amst4.MapsActivity"
+67-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:46:13-41
+68            android:label="@string/title_activity_maps" />
+68-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:47:13-56
+69        <activity android:name="com.example.amst4.LinearGraphActivity" />
+69-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:48:9-57
+69-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:48:19-54
+70        <activity android:name="com.example.amst4.MainActivity" >
+70-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:49:9-55:20
+70-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:49:19-47
+71            <intent-filter>
+71-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:50:13-54:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:51:17-69
+72-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:51:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:17-77
+74-->/Users/pabelcozambranovelez/Documents/AMST4/app/src/main/AndroidManifest.xml:30:27-74
+75            </intent-filter>
+76        </activity>
+77        <!-- Needs to be explicitly declared on P+ -->
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:17.0.1] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+90    </application>
+91
+92</manifest>
