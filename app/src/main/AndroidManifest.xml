@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.amst4">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -14,14 +15,15 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AMST4">
+        android:theme="@style/Theme.AMST4"
+        tools:ignore="AllowBackup">
         <activity android:name=".VideoViewActivity" />
         <activity android:name=".calendar_Lesther">
             <intent-filter>

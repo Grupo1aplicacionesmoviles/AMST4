@@ -13,7 +13,6 @@ public class calendar_Lesther extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar_lesther);
-
         CalendarView calendarLesther = findViewById(R.id.calendarLesther);
 
 

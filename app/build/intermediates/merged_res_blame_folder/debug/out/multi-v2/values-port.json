@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ldaca\\Desktop\\AMST4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/Users/pabelcozambranovelez/Documents/AMST4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ldaca\\.gradle\\caches\\transforms-2\\files-2.1\\507866d230d6d0f86935c8fcde29738a\\appcompat-v7-28.0.0\\res\\values-port\\values-port.xml",
+                    "source": "/Users/pabelcozambranovelez/.gradle/caches/transforms-2/files-2.1/7160c6b9fdb2bc1e41d9bd715d01fdc2/appcompat-1.3.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

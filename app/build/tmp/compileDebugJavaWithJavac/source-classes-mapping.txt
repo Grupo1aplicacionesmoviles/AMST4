@@ -1,8 +1,25 @@
+com/example/amst4/VideoViewActivity.java
+ com.example.amst4.VideoViewActivity
+com/example/amst4/databinding/ActivityVideoViewBinding.java
+ com.example.amst4.databinding.ActivityVideoViewBinding
+com/example/amst4/LinearGraphActivity.java
+ com.example.amst4.LinearGraphActivity
+ com.example.amst4.LinearGraphActivity$CustomDataEntry
+com/example/amst4/MapsActivity.java
+ com.example.amst4.MapsActivity
 com/example/amst4/BuildConfig.java
  com.example.amst4.BuildConfig
-com/example/amst4/calendar_Lesther.java
- com.example.amst4.calendar_Lesther
- com.example.amst4.calendar_Lesther$1
+com/example/amst4/databinding/ActivityMapsBinding.java
+ com.example.amst4.databinding.ActivityMapsBinding
 com/example/amst4/MainActivity.java
  com.example.amst4.MainActivity
- com.example.amst4.MainActivity$1
+com/example/amst4/databinding/ToolbarBinding.java
+ com.example.amst4.databinding.ToolbarBinding
+com/example/amst4/calendar_Lesther.java
+ com.example.amst4.calendar_Lesther
+com/example/amst4/databinding/ActivityLinearGraphBinding.java
+ com.example.amst4.databinding.ActivityLinearGraphBinding
+com/example/amst4/databinding/ActivityCalendarLestherBinding.java
+ com.example.amst4.databinding.ActivityCalendarLestherBinding
+com/example/amst4/databinding/ActivityMainBinding.java
+ com.example.amst4.databinding.ActivityMainBinding

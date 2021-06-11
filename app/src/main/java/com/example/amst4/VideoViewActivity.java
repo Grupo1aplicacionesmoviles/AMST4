@@ -3,14 +3,11 @@ package com.example.amst4;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
+
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-
 
 public class VideoViewActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
@@ -20,7 +17,7 @@ public class VideoViewActivity extends YouTubeBaseActivity implements YouTubePla
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_view);
-        youTubePlayerView=(YouTubePlayerView) findViewById(R.id.youtube_view);
+        youTubePlayerView= findViewById(R.id.youtube_view);
         youTubePlayerView.initialize(claveyoutube,this);
     }
 
@@ -39,7 +36,7 @@ public class VideoViewActivity extends YouTubeBaseActivity implements YouTubePla
 
 
         }else{
-            String error="Error al incializar Yputube" + youTubeInitializationResult.toString();
+            String error="Error al incializar Youtube" + youTubeInitializationResult.toString();
             Toast.makeText(getApplication(),error,Toast.LENGTH_LONG).show();
         }
     }

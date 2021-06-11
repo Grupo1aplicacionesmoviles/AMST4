@@ -19,7 +19,4 @@
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="167dp" />
     </LinearLayout>
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
