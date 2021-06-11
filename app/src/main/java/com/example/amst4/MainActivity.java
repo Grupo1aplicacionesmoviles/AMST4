@@ -1,5 +1,10 @@
 package com.example.amst4;
 
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -13,6 +18,12 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public void cambiar_calendario() {
+        Intent cambio=new Intent(this, calendar_Lesther.class);
+        startActivity(cambio);
+    }
+
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
