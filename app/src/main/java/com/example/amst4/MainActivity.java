@@ -1,15 +1,15 @@
 package com.example.amst4;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
-
-import com.google.android.youtube.player.YouTubeBaseActivity;
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
@@ -19,38 +19,35 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        youTubePlayerView=(YouTubePlayerView) findViewById(R.id.youtube_view);
-        youTubePlayerView.initialize(claveyoutube,this);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 
     @Override
-    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean fuerestaurado)
-    {
-        if(!fuerestaurado){
-            youTubePlayer.cueVideo("azxDhcKYku4");
-        }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
-    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-        if(youTubeInitializationResult.isUserRecoverableError()){
-            youTubeInitializationResult.getErrorDialog(this,1).show();
-
-
-        }else{
-            String error="Error al incializar Yputube" + youTubeInitializationResult.toString();
-            Toast.makeText(getApplication(),error,Toast.LENGTH_LONG).show();
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.linear_graph:
+                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                break;
+            case R.id.video_view:
+                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                break;
+            case R.id.calendar_view:
+                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                break;
+            case R.id.map:
+                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                break;
         }
+        return super.onOptionsItemSelected(item);
     }
-
-    protected void onActivityResult(int requestCode, int resultcode, Intent data){
-        if(resultcode==1){
-            getYoutubePlayerProvider().initialize(claveyoutube,this);
-        }
-    }
-
-    protected YouTubePlayer.Provider getYoutubePlayerProvider(){
-            return  youTubePlayerView;
-    }
+    //Comentario
 }
