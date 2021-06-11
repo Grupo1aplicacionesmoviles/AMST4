@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AMST4</string>
     <string name="title_activity_maps">Map</string>
+    <string name="lab_name">AMST LAB02</string>
+    <string name="button">Button</string>
+    <string name="linear_graph">Linear Graph</string>
+    <string name="video_view">Video View</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="map">Map</string>
 </resources>
