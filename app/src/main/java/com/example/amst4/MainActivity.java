@@ -1,20 +1,18 @@
 package com.example.amst4;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
-    String claveyoutube = "AIzaSyBXvHjHafL-ssDY1rgSVhVwSJX_boXG_tc";
-    YouTubePlayerView youTubePlayerView;
+public class MainActivity extends AppCompatActivity {
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,13 +36,13 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
                 startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
                 break;
             case R.id.video_view:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,VideoViewActivity.class));
                 break;
             case R.id.calendar_view:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,calendar_Lesther.class));
                 break;
             case R.id.map:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,MapsActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

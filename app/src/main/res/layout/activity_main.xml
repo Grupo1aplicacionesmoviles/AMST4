@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <com.google.android.youtube.player.YouTubePlayerView
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lab_name"
         android:textColor="#3F51B5"
@@ -20,4 +20,4 @@
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
