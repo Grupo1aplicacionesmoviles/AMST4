@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/linear_graph"
+        android:title="@string/linear_graph"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/video_view"
+        android:title="@string/video_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/calendar_view"
+        android:title="@string/calendar_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map"
+        android:title="@string/map"
+        app:showAsAction="never" />
+
+</menu>
