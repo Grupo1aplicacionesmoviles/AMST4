@@ -1,29 +1,18 @@
 package com.example.amst4;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 public class MainActivity extends AppCompatActivity {
 
-    public void cambiar_calendario() {
-        Intent cambio=new Intent(this, calendar_Lesther.class);
-        startActivity(cambio);
-    }
-
-    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
                 break;
             case R.id.video_view:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,VideoViewActivity.class));
                 break;
             case R.id.calendar_view:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,calendar_Lesther.class));
                 break;
             case R.id.map:
-                startActivity(new Intent(MainActivity.this,LinearGraphActivity.class));
+                startActivity(new Intent(MainActivity.this,MapsActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

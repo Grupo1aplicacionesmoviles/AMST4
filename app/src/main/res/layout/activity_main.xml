@@ -20,4 +20,4 @@
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
